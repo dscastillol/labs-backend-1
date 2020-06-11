@@ -34,6 +34,10 @@ public class CourseServiceTest{
         assertEquals( course.getCourseName( ), pojo.getCourseName( ) );
         assertEquals( course.getDurationHours( ), pojo.getDurationHours( ) );
 
+        //TestForFailure
+
+        assertEquals("SUCCESS", "FAILURE");
+
     }
 
 }
